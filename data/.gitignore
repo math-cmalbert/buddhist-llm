@@ -1,0 +1,35 @@
+# Data files
+*.csv
+*.json
+*.txt
+*.pdf
+
+# Cached files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Environment
+.env
+.venv
+env/
+venv/
+
+# Large model files
+*.pkl
+*.h5
+*.model
+*.bin
+
+# Logs and checkpoints
+logs/
+checkpoints/
+*.log
+
+# API keys and sensitive info
+*_key.txt
+*_secret.txt
